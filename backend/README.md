@@ -24,9 +24,13 @@ This Node JS server is responsible for establishing connection with the `Message
 
 This endpoint returns the message that is stored on the smart contract.
 
+You can test this endpoint on Postman or any other API testing tool by sending a `GET` request to `http://localhost:3000/api/message`.
+
 ### POST /api/message
 
 This endpoint takes a message in the request body and stores it on the smart contract.
+
+You can test this endpoint on Postman or any other API testing tool by sending a `POST` request to `http://localhost:3000/api/message` with the following request body:
 
 ```json
 {
