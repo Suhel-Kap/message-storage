@@ -19,8 +19,8 @@ The smart contract is deployed and verified on the Sepollia network. It can be a
 3. The server will be running on `http://localhost:3000`
 4. You can see the incoming and outgoing messages on the console
 5. Use the following API endpoints to interact with the smart contract:
-6. GET /api/message
-7. POST /api/message
+6. GET /api/message (more details in the backend README)
+7. POST /api/message (more details in the backend README)
 
 ## Tech Stack
 
