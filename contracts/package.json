@@ -1,0 +1,13 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test --network hardhat",
+    "set-vars:rpc": "hardhat vars set AMOY_RPC_URL",
+    "set-vars:privateKey": "hardhat vars set DEPLOYER_PVT_KEY"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.5"
+  }
+}
