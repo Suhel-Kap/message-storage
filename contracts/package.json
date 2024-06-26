@@ -6,7 +6,8 @@
     "set-vars:rpc": "hardhat vars set SEPOLIA_RPC_URL",
     "set-vars:privateKey": "hardhat vars set DEPLOYER_PVT_KEY",
     "set-vars:etherscan": "hardhat vars set ETHERSCAN_API_KEY",
-    "deploy-and-verify": "hardhat ignition deploy ignition/modules/MessageStorage.ts --network sepolia --verify"
+    "deploy-and-verify": "hardhat ignition deploy ignition/modules/MessageStorage.ts --network sepolia --verify",
+    "deploy": "hardhat ignition deploy ignition/modules/MessageStorage.ts --network sepolia"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",

@@ -19,6 +19,7 @@ This is a simple contract that stores a message and allows you to update it. It 
    3. Finally, to verify the contract, you will need an Etherscan API key. Once you have the key, run `npm run set-vars:etherscan` and paste the key.
    4. Once the environment variables are set, you can deploy the contract by running `npm run deploy-and-verify`.
 
+*Alternatively, if you want to deploy the contract without verifying it, you can run `npm run deploy`.*
 
 ### Testing
 

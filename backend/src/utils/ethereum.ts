@@ -9,10 +9,14 @@ const contract = new ethers.Contract(
   wallet
 );
 
+// This function reads the message from the smart contract.
 export const readMessage = async (): Promise<string> => {
   return await contract.getMessage();
 };
 
+// This function sets the message in the smart contract
+// Parameters:
+// - message: string
 export const setMessage = async (
   message: string
 ): Promise<ethers.providers.TransactionReceipt> => {
